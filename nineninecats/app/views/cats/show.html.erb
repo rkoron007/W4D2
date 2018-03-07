@@ -1,0 +1,24 @@
+<h1>This is a Kool Kat: <%=@cat.name.capitalize%></h1>
+
+<p>Cat Stats:</p>
+<table>
+  <tr>
+    <th>Birthdate</th>
+    <th>Color</th>
+    <th>Sex</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><%= @cat.birthdate %></td>
+    <td><%= @cat.color %></td>
+    <td><%= @cat.sex %></td>
+    <td><%= @cat.description %></td>
+  </tr>
+</table>
+
+<!-- <ul>
+<li>Birthdate: <%= @cat.birthdate %></li>
+<li>Color: <%= @cat.color %></li>
+<li>Sex: <%= @cat.sex %></li>
+<li>Description: <%= @cat.description %></li>
+</ul> -->
